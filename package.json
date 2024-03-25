@@ -23,6 +23,7 @@
     "moment-timezone": "^0.5.45",
     "mongoose": "^8.0.2",
     "morgan": "~1.9.1",
-    "nodemailer": "^6.9.7"
+    "nodemailer": "^6.9.7",
+    "vercel": "^33.6.1"
   }
 }
