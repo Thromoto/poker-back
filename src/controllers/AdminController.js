@@ -2,7 +2,8 @@ import UserModel from "../models/UserModel.js";
 import AdminModel from "../models/AdminModel.js";
 import Report from "../models/ReportModel.js";
 
-// Rota protegida para o administrador visualizar dados dos players
+// Rota protegida para o administrador visualizar dados dos playerssss
+
 export async function getAdminUsers(req, res) {
   try {
     if (req.user.role !== "admin") {
