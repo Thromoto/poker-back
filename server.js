@@ -4,7 +4,7 @@ import db from "./src/database/db.js";
 import routes from "./src/routes/routes.js";
 
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT;
 
 app.use(cors());
 app.use(express.json());
