@@ -26,12 +26,12 @@ export default async function handler(req, res) {
   }
 }
 
-// // O código abaixo inicia o servidor Express, mas isso é apenas um exemplo. A Vercel ignora essa parte e usa a função exportada acima.
-// db.then(() => {
-//   app.listen(PORT, () => {
-//     console.log(`Server is running on http://localhost:${PORT}`);
-//   });
-// }).catch((error) => {
-//   console.log("Failed to connect to the database:", error);
-//   process.exit(1); // Encerra o processo, indicando um erro
-// });
+// O código abaixo inicia o servidor Express, mas isso é apenas um exemplo. A Vercel ignora essa parte e usa a função exportada acima.
+db.then(() => {
+  app.listen(PORT, () => {
+    console.log(`Server is running on http://localhost:${PORT}`);
+  });
+}).catch((error) => {
+  console.log("Failed to connect to the database:", error);
+  process.exit(1); // Encerra o processo, indicando um erro
+});
