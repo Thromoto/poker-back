@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
-import db from "./src/database/db.js";
-import routes from "./src/routes/routes.js";
+import db from "../src/database/db.js"
+import routes from "../src/routes/routes.js";
 
 const app = express();
 const PORT = process.env.PORT;
